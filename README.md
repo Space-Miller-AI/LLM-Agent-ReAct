@@ -5,7 +5,7 @@ This project focuses on developing an advanced custom AI agent based on ReAct lo
 
 Key features of the Project:
 * Agent performs multi-step self-questioning and answering until the agent thinks it can answer the original question. It consist of a tool which helps the agent answer sub-questions.
-* For each sub-question, the agent's tool extracts relevant research papers across various databases, including arXiv, ChemRxiv, PubMed, and others through API requests.
+* For each sub-question, the agent's tool extracts relevant research papers across various databases, including arXiv, ChemRxiv, PubMed, and others through API requests. There is also the option of using the custom UnpayWall tool instead (Unpawwall is an open database of 50,057,146 free scholarly articles).
 * The tool performs semantic search on extracted papers to find the most relevant information, which is used as context to enable the GPT-3.5-turbo model to generate highly accurate and factual responses.
 * The system generates as final output the answer and the reference paper based on which the answers was generated.
 * Outputs from the language model are in JSON, simplifying the extraction of necessary details like answers and references, thus enhancing usability and integration capability.

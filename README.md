@@ -12,4 +12,4 @@ Key features of the Project:
 
 
 ## Tools and packages
-* Python, langchain, paperqa, findpapers
+* Python, langchain, paperqa, findpapers, unpaywall

@@ -1,5 +1,6 @@
-# LLM-Agent-ReAct
+# Autonomous AI Research Agent based on ReAct
 
+## Project Summary
 This project focuses on developing an advanced custom AI agent based on ReAct logic aimed at generating factual answers with references based on research publications. Language models are getting better at reasoning (e.g. chain-of-thought prompting) and acting (e.g. WebGPT, SayCan, ACT-1). ReAct integrates these two effective methods—reasoning and acting—into a unified approach, enhancing the overall capabilities of language models.
 
 Key features of the Project:
@@ -8,3 +9,7 @@ Key features of the Project:
 * The tool performs semantic search on extracted papers to find the most relevant information, which is used as context to enable the GPT-3.5-turbo model to generate highly accurate and factual responses.
 * The system generates as final output the answer and the reference paper based on which the answers was generated.
 * Outputs from the language model are in JSON, simplifying the extraction of necessary details like answers and references, thus enhancing usability and integration capability.
+
+
+## Tools and packages
+* Python, langchain, paperqa, findpapers
